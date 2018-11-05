@@ -4,7 +4,10 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
+$("#shoot").click(function(){
+    $("#result").text($("#input").val());
+    
+});
 
 
 // DOCUMENT READY FUNCTION BELOW
