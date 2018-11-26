@@ -5,7 +5,8 @@
 //GLOBAL VARIABLES
 /* global $ */
 var user;
-
+var  incorrectInput;
+var incorrectOutput;
 $("#shoot").click(function(){
     user = $("#input").val();
     result();
@@ -67,7 +68,8 @@ function result(){
         }
       }
   
-  
+     
+   
  
  
   $("#userChoice").html(user);
